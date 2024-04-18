@@ -1,0 +1,43 @@
+body{
+    background-color: aliceblue;
+    padding: 0px 30px;
+    padding-top: 20px;
+}
+
+.tbl{
+    margin: auto;
+    border: 1px solid black;
+}
+
+.tbl th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+
+.tbl tr:nth-child(even) {
+    background-color: rgb(223, 220, 220);
+  }
+
+.btn-green{
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10%;
+    text-decoration: none;
+}
+
+.btn-blue{
+    background-color: rgb(59, 59, 217);
+    color: white;
+    padding: 5px 8px;
+    border-radius: 10%;
+    text-decoration: none;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 10%;
+    text-decoration: none;
+}
